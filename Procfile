@@ -1,1 +1,1 @@
-worker: node sparky.js
+worker: node app.js
