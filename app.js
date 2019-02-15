@@ -23,4 +23,4 @@ client.music.start(client, {
   });
   
 
-  client.login(process.env.TOKEN);
+  client.login(process.env.Token);
