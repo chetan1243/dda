@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const cfg = require('./src/config.json');
+const cfg = require('./config.json');
 client.music = require("discord.js-musicbot-addon");
 client.music.start(client, {
-    youtubeKey: cfg.api,
+    youtubeKey: process.env.API,
     anyoneCanSkip: true,
     ownerOverMember: true,
     inlineEmbeds: true,
